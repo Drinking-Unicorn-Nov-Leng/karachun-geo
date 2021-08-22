@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="AutoMapper.Collection.EntityFrameworkCore" Version="7.0.1" />
+    <PackageReference Include="DelegateDecompiler.EntityFrameworkCore5" Version="0.29.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\karachun_geo.Data\karachun_geo.Data.csproj" ReplaceParameters="true" />
+    <ProjectReference Include="..\karachun_geo.General\karachun_geo.General.csproj" ReplaceParameters="true" />
+  </ItemGroup>
+
+</Project>
